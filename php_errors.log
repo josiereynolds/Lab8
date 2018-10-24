@@ -1,0 +1,36 @@
+[09-Oct-2018 22:34:07 UTC] PHP Warning:  include(../includes/footer.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/Midterm/index.php on line 33
+[09-Oct-2018 22:34:07 UTC] PHP Stack trace:
+[09-Oct-2018 22:34:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/Midterm/index.php:0
+[09-Oct-2018 22:34:07 UTC] PHP Warning:  include(): Failed opening '../includes/footer.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Midterm/index.php on line 33
+[09-Oct-2018 22:34:07 UTC] PHP Stack trace:
+[09-Oct-2018 22:34:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/Midterm/index.php:0
+[09-Oct-2018 22:34:27 UTC] PHP Warning:  include(../includes/header.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/Midterm/index.php on line 10
+[09-Oct-2018 22:34:27 UTC] PHP Stack trace:
+[09-Oct-2018 22:34:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/Midterm/index.php:0
+[09-Oct-2018 22:34:27 UTC] PHP Warning:  include(): Failed opening '../includes/header.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Midterm/index.php on line 10
+[09-Oct-2018 22:34:27 UTC] PHP Stack trace:
+[09-Oct-2018 22:34:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/Midterm/index.php:0
+[09-Oct-2018 23:33:42 UTC] PHP Warning:  require(../mysqli_connect.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Midterm/technicians.php on line 10
+[09-Oct-2018 23:33:42 UTC] PHP Stack trace:
+[09-Oct-2018 23:33:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/Midterm/technicians.php:0
+[09-Oct-2018 23:33:42 UTC] PHP Fatal error:  require(): Failed opening required '../mysqli_connect.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Midterm/technicians.php on line 10
+[09-Oct-2018 23:33:42 UTC] PHP Stack trace:
+[09-Oct-2018 23:33:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/Midterm/technicians.php:0
+[09-Oct-2018 23:34:00 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Midterm/technicians.php on line 17
+[09-Oct-2018 23:34:00 UTC] PHP Stack trace:
+[09-Oct-2018 23:34:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/Midterm/technicians.php:0
+[09-Oct-2018 23:34:00 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/Midterm/technicians.php:17
+[09-Oct-2018 23:35:25 UTC] PHP Warning:  require(../mysqli_connect.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Midterm/incidents.php on line 10
+[09-Oct-2018 23:35:25 UTC] PHP Stack trace:
+[09-Oct-2018 23:35:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/Midterm/incidents.php:0
+[09-Oct-2018 23:35:25 UTC] PHP Fatal error:  require(): Failed opening required '../mysqli_connect.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Midterm/incidents.php on line 10
+[09-Oct-2018 23:35:25 UTC] PHP Stack trace:
+[09-Oct-2018 23:35:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/Midterm/incidents.php:0
+[09-Oct-2018 23:35:45 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Midterm/incidents.php on line 17
+[09-Oct-2018 23:35:45 UTC] PHP Stack trace:
+[09-Oct-2018 23:35:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/Midterm/incidents.php:0
+[09-Oct-2018 23:35:45 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/Midterm/incidents.php:17
+[09-Oct-2018 23:44:35 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Midterm/incidents.php on line 17
+[09-Oct-2018 23:44:35 UTC] PHP Stack trace:
+[09-Oct-2018 23:44:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/Midterm/incidents.php:0
+[09-Oct-2018 23:44:35 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/Midterm/incidents.php:17
